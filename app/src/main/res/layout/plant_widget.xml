@@ -26,7 +26,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/water_drop_blue" />
+        android:src="@drawable/water_drop_blue"/>
+
+    <TextView
+        android:id="@+id/widget_plant_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_size"/>
 
     <ImageView
         android:id="@+id/widget_plant_image"
@@ -35,6 +42,5 @@
         android:layout_gravity="center"
         android:src="@drawable/grass" />
 
-    <!-- TODO (4) Add a new TextView in plant_widget and set it to show the plant ID -->
 
 </LinearLayout>
